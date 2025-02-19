@@ -1,0 +1,33 @@
+{
+  "name": "antd-theme-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "rtw",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "antd",
+    "theme",
+    "config",
+    "react",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm run build && npm version patch && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/readytowork-org/antd-theme-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": ["dist"],
+  "dependencies": {
+    "antd": "^5.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
