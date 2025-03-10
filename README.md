@@ -4,6 +4,6 @@ This package provides a shareable antd theme configuration that can be used acro
 
 ## Installation
 ```bash
-npm install mui-theme-config
-yarn add mui-theme-config
+npm install antd-theme-config
+yarn add antd-theme-config
 ```
