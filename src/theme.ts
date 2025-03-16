@@ -22,7 +22,7 @@ export const themeConfig: ThemeConfig["token"] = {
   borderRadius: 4,
   fontFamily: "'Noto Sans JP', sans-serif",
 }
-export const antdThemeConfig = (theme: ThemeConfig) => {
+export const antdThemeConfig = (theme?: ThemeConfig) => {
   return {
     theme: {
       token: {
